@@ -3,7 +3,8 @@
 **Projeto acadêmico | FIAP — Inteligência Artificial e Machine Learning**  
 **Tema:** visão computacional aplicada à identificação de carros e tratores  
 **Ambiente de desenvolvimento:** Google Colab e Google Drive  
-**Notebook principal:** `FarmTech_Vision_Fase6_Organizado.ipynb`
+**Notebook para entrega:** [`PedroHenriqueDoNascimentoSouza_rm565326_pbl_fase6.ipynb`](PedroHenriqueDoNascimentoSouza_rm565326_pbl_fase6.ipynb)  
+**Notebook original preservado:** `FarmTech_Vision_Fase6_Organizado.ipynb`
 
 > **Estado do projeto:** experimentos executados e resultados analisados. Este README documenta os resultados observados no notebook; a publicação do repositório, a origem/licença individual das imagens e os links finais de apresentação devem ser conferidos antes da entrega.
 
@@ -252,7 +253,7 @@ A abordagem mais apropriada depende da tarefa. Para localizar carros e tratores 
 
 **Pré-requisitos:** acesso ao Google Colab, ao Google Drive e aos arquivos do dataset. Recomenda-se GPU quando disponível.
 
-1. Abra `FarmTech_Vision_Fase6_Organizado.ipynb` no Google Colab.
+1. Abra `PedroHenriqueDoNascimentoSouza_rm565326_pbl_fase6.ipynb` no Google Colab.
 2. Conecte o Google Drive e confirme o diretório-base `/content/drive/MyDrive/FarmTech_Vision_Fase6`.
 3. Verifique a presença de `dataset/images/{train,val,test}` e `dataset/labels/{train,val,test}`.
 4. Execute as células de instalação de dependências e configuração do dataset (`data.yaml`).
@@ -314,14 +315,15 @@ Arquivos de pesos (`.pt`) podem ser grandes; verificar limites de tamanho e regr
 - [x] Conferir correspondência entre índices `0`/`1` e classes no `data.yaml`: `0=car`, `1=tractor`.
 - [ ] Revisar visualmente exemplos difíceis e duplicatas entre partições.
 - [x] Publicar notebook, README, históricos CSV e gráficos selecionados no repositório (sem fotografias do dataset).
-- [ ] Inserir links finais do GitHub, notebook e vídeo, conforme exigências da atividade.
+- [x] Disponibilizar cópia do notebook com nome completo, RM 565326 e sufixo `pbl_fase6.ipynb`.
+- [ ] Inserir links finais do GitHub, notebook Colab e vídeo, conforme exigências da atividade.
 
 ## 19. Links e identificação da entrega
 
 - **Repositório GitHub:** https://github.com/pedronhs2605/farmtech-vision-fase6
 - **Notebook Google Colab:** link compartilhável pendente de publicação.
 - **Vídeo de apresentação:** incluir o link caso seja exigido pela atividade.
-- **Responsável pelo desenvolvimento:** Pedro Henrique do Nascimento Souza.
+- **Responsável pelo desenvolvimento:** Pedro Henrique do Nascimento Souza — **RM 565326**.
 - **Instituição e curso:** FIAP — Inteligência Artificial e Machine Learning.
 - **Modalidade de desenvolvimento:** projeto individual, desenvolvido integralmente por Pedro Henrique do Nascimento Souza.
 
