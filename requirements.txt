@@ -1,0 +1,11 @@
+# Dependências principais do projeto FarmTech Vision Fase 6
+# Instalar em Google Colab conforme células do notebook.
+ultralytics
+tensorflow
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+Pillow
+PyYAML
