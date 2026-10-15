@@ -306,7 +306,7 @@ Arquivos de pesos (`.pt`) podem ser grandes; verificar limites de tamanho e regr
 - **Vídeo de apresentação:** incluir o link caso seja exigido pela atividade.
 - **Responsável pelo desenvolvimento:** Pedro Henrique do Nascimento Souza.
 - **Instituição e curso:** FIAP — Inteligência Artificial e Machine Learning.
-- **Integrantes e identificações acadêmicas:** confirmar a composição da equipe e os RMs antes da entrega.
+- **Modalidade de desenvolvimento:** projeto individual, desenvolvido integralmente por Pedro Henrique do Nascimento Souza.
 
 **Origem e licença do dataset:** as imagens foram utilizadas para fins acadêmicos e experimentais. A identificação das fontes e a verificação das condições de redistribuição ainda estão pendentes. Até a conclusão dessa verificação, o dataset não será disponibilizado publicamente. O uso acadêmico, por si só, não comprova permissão para redistribuir as imagens.
 
