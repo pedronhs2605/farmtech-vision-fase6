@@ -187,7 +187,7 @@ A avaliação exibida no notebook indicou variações entre as classes `car` e `
 
 ## 10. Evidências visuais e análise de erros
 
-O projeto gerou gráficos de avaliação, matrizes de confusão e imagens de predição, além de uma inspeção visual das caixas anotadas. Foram encontrados arquivos em `results/avaliacao_final/` e `results/evidencias_visuais/`.
+O projeto gerou gráficos de avaliação, matrizes de confusão e imagens de predição, além de uma inspeção visual das caixas anotadas. Os **2 históricos CSV e 10 gráficos selecionados** estão publicados na pasta [`evidencias/`](evidencias/) do repositório, com inventário em [`docs/EVIDENCIAS.md`](docs/EVIDENCIAS.md). As imagens com fotografias do dataset não foram republicadas, pois suas permissões ainda precisam ser verificadas.
 
 Na análise visual, observar:
 
@@ -311,7 +311,7 @@ Arquivos de pesos (`.pt`) podem ser grandes; verificar limites de tamanho e regr
 - [ ] Confirmar fontes, licenças e permissões de publicação das imagens.
 - [ ] Conferir correspondência entre índices `0`/`1` e classes no `data.yaml`.
 - [ ] Revisar visualmente exemplos difíceis e duplicatas entre partições.
-- [ ] Salvar e publicar notebook, README e evidências permitidas no repositório.
+- [x] Publicar notebook, README, históricos CSV e gráficos selecionados no repositório (sem fotografias do dataset).
 - [ ] Inserir links finais do GitHub, notebook e vídeo, conforme exigências da atividade.
 
 ## 19. Links e identificação da entrega
