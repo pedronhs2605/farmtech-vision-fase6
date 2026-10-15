@@ -20,7 +20,7 @@
 - [ ] Revisar a correspondência dos índices 0 e 1 com as classes no `data.yaml`.
 - [ ] Verificar duplicatas ou vazamento entre treino, validação e teste.
 - [ ] Adicionar link compartilhável do notebook e link do vídeo, se exigido.
-- [ ] Conferir integrantes e identificações acadêmicas no README.
+- [x] Confirmar autoria individual e identificação acadêmica no README.
 
 ## Nota metodológica
 
