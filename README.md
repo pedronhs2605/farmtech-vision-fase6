@@ -63,7 +63,7 @@ O conjunto organizado contém **80 imagens** distribuídas em três partições:
 | Teste (`test`) | 8 | 8 | 13 |
 | **Total** | **80** | **80** | **134** |
 
-Os totais de objetos foram apurados a partir dos arquivos de anotação: treino com 71 objetos da classe de índice `0` e 35 da classe `1`; validação com 9 e 6; teste com 9 e 4, respectivamente. A correspondência formal entre índices e nomes deve ser conferida no `data.yaml` do notebook antes da publicação.
+Os totais de objetos foram apurados a partir dos arquivos de anotação: treino com 71 objetos da classe de índice `0` e 35 da classe `1`; validação com 9 e 6; teste com 9 e 4, respectivamente. A correspondência foi conferida no `data.yaml` do Google Drive: **índice `0` = `car` e índice `1` = `tractor`**.
 
 **Atenção à unidade de análise:** o número de objetos anotados não equivale ao número de imagens. Uma mesma imagem pode conter vários objetos. A contagem acima também **não comprova** a distribuição de 40 imagens por classe; imagens com ambas as classes tornam essa afirmação especialmente delicada.
 
@@ -101,6 +101,8 @@ A estrutura é representativa dos caminhos confirmados no Google Drive. Outros a
 Antes de publicar o dataset, é necessário registrar a **origem de cada conjunto de imagens, sua licença e as condições de redistribuição**. Essas informações não foram confirmadas nas evidências disponíveis para este README; portanto, não se atribui aqui uma licença não verificada. Caso não exista permissão de redistribuição, publique apenas o notebook, os scripts, as métricas e exemplos permitidos, indicando como obter legalmente os dados.
 
 A inspeção visual das caixas é complementar à validação automática: coordenadas válidas não garantem que cada objeto tenha sido identificado e delimitado corretamente. Também é importante conferir se imagens iguais ou quase iguais não aparecem em partições distintas.
+
+A auditoria preliminar da proveniência e os metadados do ZIP identificado estão documentados em [`docs/PROVENIENCIA_DATASET.md`](docs/PROVENIENCIA_DATASET.md).
 
 ## 6. Preparação e verificação das anotações
 
@@ -309,7 +311,7 @@ Arquivos de pesos (`.pt`) podem ser grandes; verificar limites de tamanho e regr
 - [x] YOLO pré-treinado e CNN discutidos no notebook.
 - [x] Comparação crítica elaborada com métricas reais.
 - [ ] Confirmar fontes, licenças e permissões de publicação das imagens.
-- [ ] Conferir correspondência entre índices `0`/`1` e classes no `data.yaml`.
+- [x] Conferir correspondência entre índices `0`/`1` e classes no `data.yaml`: `0=car`, `1=tractor`.
 - [ ] Revisar visualmente exemplos difíceis e duplicatas entre partições.
 - [x] Publicar notebook, README, históricos CSV e gráficos selecionados no repositório (sem fotografias do dataset).
 - [ ] Inserir links finais do GitHub, notebook e vídeo, conforme exigências da atividade.
@@ -323,7 +325,7 @@ Arquivos de pesos (`.pt`) podem ser grandes; verificar limites de tamanho e regr
 - **Instituição e curso:** FIAP — Inteligência Artificial e Machine Learning.
 - **Modalidade de desenvolvimento:** projeto individual, desenvolvido integralmente por Pedro Henrique do Nascimento Souza.
 
-**Origem e licença do dataset:** as imagens foram utilizadas para fins acadêmicos e experimentais. A identificação das fontes e a verificação das condições de redistribuição ainda estão pendentes. Até a conclusão dessa verificação, o dataset não será disponibilizado publicamente. O uso acadêmico, por si só, não comprova permissão para redistribuir as imagens.
+**Origem e licença do dataset:** as imagens foram utilizadas para fins acadêmicos e experimentais. Foi identificado um arquivo ZIP de outro conjunto disponível no Drive, com metadados Roboflow e licença CC BY 4.0, mas **a correspondência desse ZIP com as 80 imagens efetivamente utilizadas ainda não foi comprovada**. A licença do ZIP não é automaticamente atribuída ao subconjunto do projeto. A identificação das fontes e a verificação das condições de redistribuição dessas 80 imagens continuam pendentes. Até a conclusão dessa verificação, o dataset não será disponibilizado publicamente. O uso acadêmico, por si só, não comprova permissão para redistribuir as imagens.
 
 As verificações técnicas e documentais ainda pendentes estão relacionadas na seção 18 e em `docs/CONTROLE_DE_ENTREGA.md`.
 
