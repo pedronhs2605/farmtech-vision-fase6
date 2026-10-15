@@ -147,6 +147,21 @@ Os históricos registraram 30 e 60 épocas, respectivamente. O maior valor de **
 
 Esses números descrevem a validação durante o desenvolvimento; **não são as métricas finais de teste**.
 
+### 8.1 Comparação dos históricos de validação (arquivos `results.csv`)
+
+Os históricos das execuções de 30 e 60 épocas registram as métricas de validação a cada época. Na **última época** de cada execução, os resultados foram:
+
+| Métrica de validação | 30 épocas (época 30) | 60 épocas (época 60) | Diferença (60 − 30) |
+|---|---:|---:|---:|
+| Precisão | 0,5229 | 0,6638 | +0,1409 |
+| Recall | 0,6667 | 0,5554 | −0,1113 |
+| mAP@0.50 | 0,5548 | 0,6526 | +0,0978 |
+| mAP@0.50:0.95 | 0,3416 | 0,3531 | +0,0115 |
+
+No histórico de **30 épocas**, o maior mAP@0.50 foi **0,6068 (época 28)** e o maior mAP@0.50:0.95 foi **0,3803 (época 26)**. No histórico de **60 épocas**, o maior mAP@0.50 foi **0,7048 (época 52)** e o maior mAP@0.50:0.95 foi **0,3541 (época 59)**. Os máximos de métricas distintas não necessariamente ocorrem no mesmo checkpoint.
+
+**Leitura crítica:** na última época, o experimento de 60 épocas teve precisão e mAP@0.50 maiores, porém recall menor. O ganho em mAP@0.50:0.95 foi pequeno. Esses valores são de **validação durante o treinamento**, e não substituem a avaliação independente do conjunto de teste apresentada na seção 9. Como os melhores pesos podem corresponder a épocas anteriores à última, também não se deve confundir a linha final do CSV com o desempenho de `best.pt`.
+
 ## 9. Avaliação final no conjunto de teste
 
 Os melhores pesos de cada execução foram avaliados com `split='test'` no mesmo conjunto de **8 imagens e 13 objetos anotados**.
