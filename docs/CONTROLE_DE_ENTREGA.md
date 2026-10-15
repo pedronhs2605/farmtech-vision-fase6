@@ -21,7 +21,7 @@ Capturas da atividade **Cap 1 — O despertar da Rede Neural**, portal FIAP, for
 | Prints das imagens de teste processadas pelo modelo | **Pendente**: imagens de teste existem no Drive, mas não foram publicadas por licença não verificada | Verificar autorização e selecionar prints legítimos |
 | Repositório novo no GitHub com link no portal | **Parcial**: repositório criado e documentado, mas permanece privado; envio no portal consta pendente | Garantir acesso ao avaliador, sem publicar dados sem licença |
 | Notebook Jupyter executado, comentado, com Markdown de análise | **Parcial**: notebook publicado; revisar organização e comentários | Conferir notebook |
-| Nome do notebook com nome completo, RM e `pbl_fase6.ipynb` | **Pendente**: arquivo atual `FarmTech_Vision_Fase6_Organizado.ipynb` não segue o padrão mostrado | Renomear/criar cópia após obter RM confirmado |
+| Nome do notebook com nome completo, RM e `pbl_fase6.ipynb` | **Atendido**: cópia `PedroHenriqueDoNascimentoSouza_rm565326_pbl_fase6.ipynb` criada no GitHub; original preservado | Conferir abertura do notebook |
 | Vídeo de até 5 minutos, YouTube “não listado”, link no README | **Pendente**: não há link de vídeo no README | Gravar, publicar e inserir link |
 | README introdutório com link do Colab/Jupyter e descrição completa | **Parcial**: documentação extensa, mas falta link compartilhável do Colab | Inserir link |
 | Repositório público para acesso da equipe FIAP | **Pendente**: repositório privado | Confirmar segurança dos arquivos e tornar público antes da submissão, conforme enunciado |
@@ -42,10 +42,17 @@ Capturas da atividade **Cap 1 — O despertar da Rede Neural**, portal FIAP, for
 ## Prioridade para finalizar
 
 1. **Resolver prazo e acesso ao portal**, porque a tela indica envio pendente.
-2. **Confirmar RM**, criar notebook com o nome exigido e verificar sua apresentação.
+2. **RM 565326 confirmado e cópia do notebook criada**; verificar sua abertura e apresentação.
 3. **Gravar vídeo de até 5 minutos** e inserir o link não listado no README.
 4. **Conferir distribuição das imagens por classe** e as evidências de rotulação.
 5. **Revisar licença dos prints de teste** e publicar apenas os autorizados.
 6. **Adicionar link do Colab**, verificar acesso público ao GitHub e enviar o link pelo portal.
 
 Não confundir pendências de comprovação com etapas necessariamente não executadas.
+
+## Identificação acadêmica
+
+- Autor: Pedro Henrique do Nascimento Souza
+- RM: **565326**
+- Notebook para entrega: [`PedroHenriqueDoNascimentoSouza_rm565326_pbl_fase6.ipynb`](../PedroHenriqueDoNascimentoSouza_rm565326_pbl_fase6.ipynb)
+- Notebook original preservado no repositório.
