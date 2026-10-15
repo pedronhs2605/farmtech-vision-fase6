@@ -1,6 +1,6 @@
 # Índice de evidências — FarmTech Vision Fase 6
 
-Este documento organiza as evidências existentes no Google Drive e indica quais arquivos devem ser selecionados para uma eventual publicação no GitHub. **Os links do Drive não significam que os arquivos foram copiados para o repositório.** Não publicar imagens do dataset sem verificar a licença e a permissão de redistribuição.
+Este documento organiza as evidências existentes no Google Drive e indica quais arquivos devem ser selecionados para uma eventual publicação no GitHub. **Os CSVs e gráficos selecionados já foram copiados para o repositório em `evidencias/`.** Não publicar imagens do dataset sem verificar a licença e a permissão de redistribuição.
 
 ## 1. Pastas de origem (Google Drive)
 
@@ -8,12 +8,12 @@ Este documento organiza as evidências existentes no Google Drive e indica quais
 |---|---|---|
 | Resultados gerais | [results](https://drive.google.com/drive/folders/1P5eHmpsfCYJGs0MWhzap12kRpltIP4ny) | `avaliacao_final`, `avaliacao_teste`, `evidencias_visuais`, `farmtech_yolo_v1`, `predicoes_teste`, `yolo_custom`, `yolo_tradicional`, `cnn_farmtech.keras` |
 | Avaliação final | [avaliacao_final](https://drive.google.com/drive/folders/15s-Z3RUYByhivp6wn45MmgPH_MV_ViX0) | Pastas das avaliações de 30 e 60 épocas e curvas/matrizes |
-| Avaliação de 30 épocas | [YOLO_30_épocas](https://drive.google.com/drive/folders/1HaXGHok5Mb9-GJtDxya27Rif2c-7jDJM) | `BoxF1_curve.png`, `BoxP_curve.png`, `BoxPR_curve.png`, `BoxR_curve.png`, `confusion_matrix.png`, `confusion_matrix_normalized.png`, `val_batch0_labels.jpg`, `val_batch0_pred.jpg` |
-| Avaliação de 60 épocas | [YOLO_60_épocas](https://drive.google.com/drive/folders/1s9tLPsK-9PQTRKFYf1xfQb7BOKNQ06n) | Mesmos tipos de curvas, matrizes e imagens de validação |
-| Treinamento YOLO inicial | [farmtech_yolo_v1](https://drive.google.com/drive/folders/1SDeIY9pPyEgfdK7G_9O_KmFjdBNubv) | `results.csv`, `results.png`, `labels.jpg` e imagens de lotes |
-| Treinamento personalizado 60 épocas | [treino_60_epocas](https://drive.google.com/drive/folders/1fAs_WDgoUEAzcUncl76hl_8AO_l0xqnD) | `results.csv`, `results.png`, curvas, matrizes e imagens de lotes |
+| Avaliação de 30 épocas | [YOLO_30_épocas](https://drive.google.com/drive/folders/1HaXGHoK5Mb9-GJtDxya27Rif2c-7jDJM) | `BoxF1_curve.png`, `BoxP_curve.png`, `BoxPR_curve.png`, `BoxR_curve.png`, `confusion_matrix.png`, `confusion_matrix_normalized.png`, `val_batch0_labels.jpg`, `val_batch0_pred.jpg` |
+| Avaliação de 60 épocas | [YOLO_60_épocas](https://drive.google.com/drive/folders/1s9tLPsK-9PQTRKFYf1xfQb7BOKNQ06nJ) | Mesmos tipos de curvas, matrizes e imagens de validação |
+| Treinamento YOLO inicial | [farmtech_yolo_v1](https://drive.google.com/drive/folders/1SDelY9pPyEgfdK7G_9O_KmFjolBNubv2) | `results.csv`, `results.png`, `labels.jpg` e imagens de lotes |
+| Treinamento personalizado 60 épocas | [treino_60_epocas](https://drive.google.com/drive/folders/1fAs_WDgoUEAzcUncJ76hI_8AO_I0xqnD) | `results.csv`, `results.png`, curvas, matrizes e imagens de lotes |
 
-**Observação:** os links foram transcritos das capturas de tela e ainda devem ser testados com a conta de acesso. O acesso de terceiros depende das permissões de compartilhamento do Drive.
+**Observação:** os IDs das pastas foram confirmados pela conexão com o Google Drive. O acesso de terceiros depende das permissões de compartilhamento do Drive.
 
 ## 2. Estrutura recomendada para evidências publicáveis
 
@@ -39,10 +39,12 @@ evidencias/
 │       ├── BoxPR_curve.png
 │       └── BoxF1_curve.png
 └── exemplos_visuais/
-    └── (apenas imagens cuja publicação seja autorizada)
+    └── (não publicada: licenças ainda não verificadas)
 ```
 
 **Não copiar automaticamente:** `best.pt`, `cnn_farmtech.keras`, o dataset bruto e imagens com licença não verificada. Os modelos e dados podem permanecer no Drive; registrar a forma de acesso e reprodução quando pertinente.
+
+**Publicado em GitHub:** [abrir pasta de evidências](https://github.com/pedronhs2605/farmtech-vision-fase6/tree/main/evidencias). Os gráficos publicados não incluem fotografias originais do dataset.
 
 ## 3. Resultados finais documentados
 
@@ -73,7 +75,7 @@ Esses resultados são distintos dos históricos de validação por época, compa
 - [x] Pastas de resultados e avaliações identificadas nas capturas.
 - [x] Métricas de teste documentadas no README principal.
 - [x] Índice com localização e finalidade das evidências.
-- [ ] Copiar para `evidencias/` os CSVs e gráficos selecionados (ainda não enviados ao GitHub).
+- [x] Copiar para `evidencias/` os 2 CSVs e 10 gráficos selecionados.
 - [ ] Confirmar que as matrizes e curvas escolhidas correspondem às avaliações finais corretas.
 - [ ] Verificar licenças e direitos de redistribuição de cada imagem antes de publicar exemplos.
 - [ ] Verificar duplicatas entre treino, validação e teste.
