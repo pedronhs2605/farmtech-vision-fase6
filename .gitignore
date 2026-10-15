@@ -1,0 +1,22 @@
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+*.log
+
+# Pesos, dados e saídas volumosas (não publicar sem revisão)
+*.pt
+*.pth
+*.onnx
+dataset/
+dataset_cnn/
+downloads/
+results/
+runs/
