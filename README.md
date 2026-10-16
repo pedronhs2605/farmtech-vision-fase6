@@ -316,13 +316,14 @@ Arquivos de pesos (`.pt`) podem ser grandes; verificar limites de tamanho e regr
 - [ ] Revisar visualmente exemplos difíceis e duplicatas entre partições.
 - [x] Publicar notebook, README, históricos CSV e gráficos selecionados no repositório (sem fotografias do dataset).
 - [x] Disponibilizar cópia do notebook com nome completo, RM 565326 e sufixo `pbl_fase6.ipynb`.
-- [ ] Inserir links finais do GitHub, notebook Colab e vídeo, conforme exigências da atividade.
+- [x] Inserir link do vídeo de apresentação no YouTube (não listado, conforme configuração a conferir).
+- [ ] Inserir link compartilhável do notebook no Google Colab e conferir acesso do avaliador.
 
 ## 19. Links e identificação da entrega
 
 - **Repositório GitHub:** https://github.com/pedronhs2605/farmtech-vision-fase6
 - **Notebook Google Colab:** link compartilhável pendente de publicação.
-- **Vídeo de apresentação:** incluir o link caso seja exigido pela atividade.
+- **Vídeo de apresentação (até 5 minutos):** https://www.youtube.com/watch?v=Xci-22BFk18
 - **Responsável pelo desenvolvimento:** Pedro Henrique do Nascimento Souza — **RM 565326**.
 - **Instituição e curso:** FIAP — Inteligência Artificial e Machine Learning.
 - **Modalidade de desenvolvimento:** projeto individual, desenvolvido integralmente por Pedro Henrique do Nascimento Souza.
